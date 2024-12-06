@@ -1,0 +1,49 @@
+<template>
+    <section class="tw-relative tw-flex tw-flex-col tw-w-full tw-max-w-[100vw]
+                    tw-place-content-center tw-place-items-center tw-overflow-hidden tw-p-8">
+
+        <h2 class="reveal-up tw-text-3xl max-md:tw-text-xl">Trusted by brands you know</h2>
+
+        <div class="reveal-up carousel-container">
+            <div class="carousel tw-mt-6 tw-flex tw-w-full lg:w-place-content-center tw-gap-5 max-md:tw-gap-2">
+                <!-- add the brands using your app  -->
+                <div class="carousel-img tw-h-[30px] tw-w-[150px]">
+                    <img src="/images/brand-logos/google.svg" alt="Google"
+                        class="tw-h-full tw-w-full tw-object-contain tw-grayscale tw-transition-colors hover:tw-grayscale-0"
+                        srcset="" />
+                </div>
+                <div class="carousel-img tw-h-[30px] tw-w-[150px]">
+                    <img src="/images/brand-logos/microsoft.svg" alt="Microsoft"
+                        class="tw-h-full tw-w-full tw-object-contain tw-grayscale tw-transition-colors hover:tw-grayscale-0"
+                        srcset="" />
+                </div>
+                <div class="carousel-img tw-h-[30px] tw-w-[150px]">
+                    <img src="/images/brand-logos/adobe.svg" alt="Adobe"
+                        class="tw-h-full tw-w-full tw-object-contain tw-grayscale tw-transition-colors hover:tw-grayscale-0"
+                        srcset="" />
+                </div>
+                <div class="carousel-img tw-h-[30px] tw-w-[150px]">
+                    <img src="/images/brand-logos/airbnb.svg" alt="Adobe"
+                        class="tw-h-full tw-w-full tw-object-contain tw-grayscale tw-transition-colors hover:tw-grayscale-0"
+                        srcset="" />
+                </div>
+                <div class="carousel-img tw-h-[30px] tw-w-[150px]">
+                    <img src="/images/brand-logos/stripe.svg" alt="Adobe"
+                        class="tw-h-full tw-w-full tw-object-contain tw-grayscale tw-transition-colors hover:tw-grayscale-0"
+                        srcset="" />
+                </div>
+                <div class="carousel-img tw-h-[30px] tw-w-[150px]">
+                    <img src="/images/brand-logos/reddit.svg" alt="Adobe"
+                        class="tw-h-full tw-w-full tw-object-contain tw-grayscale tw-transition-colors hover:tw-grayscale-0"
+                        srcset="" />
+                </div>
+            </div>
+        </div>
+    </section>
+</template>
+
+<script setup>
+
+</script>
+
+<style scoped></style>

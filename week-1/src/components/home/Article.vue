@@ -1,0 +1,71 @@
+<template>
+    <section
+        class="tw-mt-5 tw-flex tw-w-full tw-min-h-[80vh] tw-flex-col tw-place-content-center tw-place-items-center tw-p-[2%] max-lg:tw-p-3">
+        <h3 class="reveal-up tw-text-center tw-text-4xl tw-font-medium max-md:tw-text-2xl">
+            Read our articles ✨
+        </h3>
+        <!-- pricing -->
+        <div class="reveal-up tw-mt-10 tw-flex tw-flex-wrap tw-place-content-center tw-gap-10 max-lg:tw-flex-col">
+            <a href=""
+                class="tw-flex tw-h-[400px] tw-w-[350px] tw-flex-col tw-gap-2 tw-overflow-clip tw-rounded-lg tw-border-[#333a44] tw-bg-[#1d2127] tw-border-[1px] tw-p-4 tw-shadow-xl max-lg:tw-w-[300px]">
+                <div class="tw-h-[200px] tw-w-full tw-overflow-hidden tw-rounded-md">
+                    <img src="/images/home/forest.jpg" alt="article image" class="tw-h-full tw-w-full tw-object-cover"
+                        srcset="" />
+                </div>
+                <h3 class="tw-text-2xl tw-font-semibold max-md:tw-text-xl">
+                    Article 1
+                </h3>
+                <p class="tw-mt-2 tw-text-gray-400">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ab, explicabo!
+                </p>
+                <span>
+                    <span>Learn more</span>
+                    <i class="bi bi-arrow-right"></i>
+                </span>
+            </a>
+            <a href=""
+                class="tw-flex tw-h-[400px] tw-w-[350px] tw-flex-col tw-gap-2 tw-overflow-clip tw-rounded-lg tw-border-[#333a44] tw-bg-[#1d2127] tw-border-[1px] tw-p-4 tw-shadow-xl max-lg:tw-w-[300px]">
+                <div class="tw-h-[200px] tw-w-full tw-overflow-hidden tw-rounded-md">
+                    <img src="/images/home/mountain.jpg" alt="article image" class="tw-h-full tw-w-full tw-object-cover"
+                        srcset="" />
+                </div>
+                <h3 class="tw-text-2xl tw-font-semibold max-md:tw-text-xl">
+                    Article 2
+                </h3>
+                <p class="tw-mt-2 tw-text-gray-400">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ab, explicabo!
+                </p>
+                <span>
+                    <span>Learn more</span>
+                    <i class="bi bi-arrow-right"></i>
+                </span>
+            </a>
+            <a href=""
+                class="tw-flex tw-h-[400px] tw-w-[350px] tw-flex-col tw-gap-2 tw-overflow-clip tw-rounded-lg tw-border-[#333a44] tw-bg-[#1d2127] tw-border-[1px] tw-p-4 tw-shadow-xl max-lg:tw-w-[300px]">
+                <div class="tw-h-[200px] tw-w-full tw-overflow-hidden tw-rounded-md">
+                    <img src="/images/home/photography.jpg" alt="article image"
+                        class="tw-h-full tw-w-full tw-object-cover" srcset="" />
+                </div>
+                <h3 class="tw-text-2xl tw-font-semibold max-md:tw-text-xl">
+                    Article 3
+                </h3>
+                <p class="tw-mt-2 tw-text-gray-400">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ab, explicabo!
+                </p>
+                <span>
+                    <span>Learn more</span>
+                    <i class="bi bi-arrow-right"></i>
+                </span>
+            </a>
+        </div>
+    </section>
+</template>
+
+<script setup>
+
+</script>
+
+<style scoped></style>
